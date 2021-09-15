@@ -4,7 +4,7 @@
 ## 세팅 방법
 Mac을 기준으로 작성하였습니다.
 
-1. 사전 준비
+### 1. 사전 준비
 - git 설치 (https://docs.github.com/en/get-started/quickstart/set-up-git)
 - ruby 설치 (https://www.ruby-lang.org/en/documentation/installation/)
 	+ Homebrew를 통해 설치
@@ -13,10 +13,10 @@ Mac을 기준으로 작성하였습니다.
 	```
 	+ Hemberew 설명 (https://brew.sh/)
 
-2. create repository
+### 2. create repository
 - <user>.github.io 또는 <organization>.github.io 라는 이름으로 repository 생성
 
-3. create site
+### 3. create site
 - clone repository & change directory
 ```shell
 $ git clone https://github.com/USER/REPOSITORY.git
