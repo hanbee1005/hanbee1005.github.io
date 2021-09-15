@@ -56,6 +56,13 @@ $ git push -u origin BRANCH
 - remote repository의 Settings > Pages에서 URL 확인
 
 ## 페이지 추가
+- publishing soure의 root 위치에 PAGE-NAME.md 파일 추가
+- md 파일 상단에 아래 내용 추가
+```
+layout: page
+title: "PAGE TITLE"
+permalink: /URL-PATH/
+```
 
 ## 테마 적용하기
 
