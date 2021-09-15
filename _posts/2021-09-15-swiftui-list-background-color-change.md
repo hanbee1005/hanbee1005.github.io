@@ -42,6 +42,6 @@ List {
     }
     .onAppear {
     	UITableView.appearance().backgroundColor = .clear
-        UITableView.appearance().separatorStyle = .none  // 이 부분 추가!!!
+    	UITableView.appearance().separatorStyle = .none  // 이 부분 추가!!!
     }
 	```
