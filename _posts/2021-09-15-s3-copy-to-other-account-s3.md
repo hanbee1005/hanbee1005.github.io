@@ -2,7 +2,7 @@
 layout: post
 title:  "[AWS Lambda] S3 데이터 다른 계정 S3로 복사"
 date:   2021-09-15 15:03:23 +0900
-categories: jekyll update
+categories: aws lambda s3
 ---
 
 아래와 같이 Lambda를 통해 Account A의 S3에 저장된 데이터를 그대로 Account B의 S3로 복사하는 과정을 알아보겠습니다.
