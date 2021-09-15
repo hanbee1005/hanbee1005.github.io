@@ -79,4 +79,4 @@ categories: CATEGORY-1 CATEGORY-2
 ## 참고
 - https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
 - https://poiemaweb.com/jekyll-basics
-
+- https://github.com/jekyll/minima
