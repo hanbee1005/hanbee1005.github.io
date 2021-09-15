@@ -7,7 +7,8 @@ categories: swift swiftUI
 
 swiftUI에서 NavigationView를 사용할 때 NavigationBar를 사용하지 않고 직접 구현한 Back Button을 사용할 수 있습니다.
 
-1. Back Button 뷰 새로 구성하기     
+1. Back Button 뷰 새로 구성하기    
+
 ```swift
 import SwiftUI
 
@@ -27,8 +28,8 @@ struct NavBarBackButton: View {
         .padding(.vertical)
     }
 }
-```  
 
+```  
 
 2. Back Button을 뷰 상단에 추가하고 원래 제공되는 NavigationBar 숨기기    
 
@@ -41,6 +42,7 @@ var addBookContent: some View {
     .navigationBarHidden(true)
     ...
 }
+
 ```
 
 참고: [custom-back-button](https://medium.com/@dinesh10c04/swiftui-adding-a-custom-back-button-to-navigation-bar-c96cd4e30f60)
