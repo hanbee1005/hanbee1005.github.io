@@ -40,3 +40,5 @@ var addBookContent: some View {
     ...
 }
 ```
+
+- 참고: [custom-back-button](https://medium.com/@dinesh10c04/swiftui-adding-a-custom-back-button-to-navigation-bar-c96cd4e30f60)
