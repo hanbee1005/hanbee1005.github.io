@@ -63,6 +63,16 @@ layout: page
 title: "PAGE TITLE"
 permalink: /URL-PATH/
 ```
+## Post 추가
+- ```_posts``` 디렉토리로 이동
+- YYYY-MM-DD-NAME-OF-POST.md 파일 추가
+- md 파일 상단에 아래 내용 추가
+```
+layout: post
+title: "POST TITLE"
+date: YYYY-MM-DD hh:mm:ss -0000
+categories: CATEGORY-1 CATEGORY-2
+```
 
 ## 테마 적용하기
 
