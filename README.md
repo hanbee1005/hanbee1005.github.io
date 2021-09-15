@@ -14,7 +14,7 @@ Mac을 기준으로 작성하였습니다.
 	+ Hemberew 설명 (https://brew.sh/)
 
 ### 2. create repository
-- <user>.github.io 또는 <organization>.github.io 라는 이름으로 repository 생성
+- ```<user>.github.io``` 또는 ```<organization>.github.io``` 라는 이름으로 repository 생성
 
 ### 3. create site
 - clone repository & change directory
@@ -30,11 +30,11 @@ $ jekyll new --skip-bundle .
 # 권한이 없어서 실행되지 않는 경우 sudo jekyll new --skip-bundle . 로 실행
 ```
 - Gemfile 수정
-	+ gem "jekyll" 라인 주석 처리하기
+	+ ```gem "jekyll"``` 라인 주석 처리하기
 	```
 	# gem "jekyll"
 	```
-	+ gem "github-pages" 라인 수정 (or 추가)
+	+ ```# gem "github-pages"``` 라인 수정 (or 추가)
 	```
 	gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
 	```
