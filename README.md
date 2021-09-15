@@ -23,12 +23,6 @@ $ git clone https://github.com/USER/REPOSITORY.git
 $ cd REPOSITORY-NAME
 # Changes the working directory
 ```
-- docs 폴더에 있는 소스를 publishing 하기 위해 디렉토리 생성
-```shell
-$ mkdir docs
-# Create a new folder called docs
-$ cd docs
-```
 - create a new Jekyll site
 ```shell
 $ jekyll new --skip-bundle .
