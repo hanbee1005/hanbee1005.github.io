@@ -40,7 +40,7 @@ $ jekyll new --skip-bundle .
 	```
 	# gem "jekyll"
 	```
-	+ # gem "github-pages" 라인 수정 (or 추가)
+	+ gem "github-pages" 라인 수정 (or 추가)
 	```
 	gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
 	```
