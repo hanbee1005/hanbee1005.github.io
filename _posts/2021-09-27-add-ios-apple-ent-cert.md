@@ -13,13 +13,19 @@ Apple Developer Enterprise Program에서 사용하는 배포용 Certification �
 인증서 생성 방법은 다음과 같음
 1. 개발자 인증서 생성 (.csr) - 기존 csr 파일 사용 가능
 	1. 키체인 접근 > 인증서 지원 > 인증기관에서 인증서 요청...
+		<img src="../assets/img/2021-09-27-add-ios-apple-ent-cert/create-csr-01.png">
 	2. 원하는 이메일로 인증서 생성하기 (디스크에 저장하면 .csr 파일이 생성됨)
+		<img src="../assets/img/2021-09-27-add-ios-apple-ent-cert/create-csr-02.png">
 2. https://developer.apple.com/kr/ 에 접속하여 관리자 계정으로 로그인
 3. Certificates, Identifiers & Profiles 클릭
 4. Certificates에서 + 버튼을 클릭
+	<img src="../assets/img/2021-09-27-add-ios-apple-ent-cert/add-cert-01.png">
 5. Software > In-House and Ad Hoc 선택 후 Continue
+	<img src="../assets/img/2021-09-27-add-ios-apple-ent-cert/add-cert-02.png">
 6. 위에서 생성한(또는 기존) csr 파일 선택
+	<img src="../assets/img/2021-09-27-add-ios-apple-ent-cert/add-cert-03.png">
 7. 인증서 생성 완료 (로그인한 사용자 계정으로 생성됨)
+	<img src="../assets/img/2021-09-27-add-ios-apple-ent-cert/add-cert-04.png">
 8. 다운로드 받기 및 keyChain에 추가하기
 	- 생성된 인증서를 다운로드 받은 다음 더블 클릭하면 키체인에 추가됨
 9. 인증서 공유하기
