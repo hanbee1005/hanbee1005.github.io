@@ -31,8 +31,13 @@ let server = app.listen(8080, ()=>{
 module.exports = server;
 ```
 
-front-end 개발 시 CORS 에러가 자주 발생하는데 서버측에서 CORS 에러에 대한 처리를 위와 같이 해주었다고 해도 localhost로 개발 및 테스트 과정에서 계속 문제가 발생할 수 있음.     
+-------------------------------------------------------------
+
+front-end 개발 시 CORS 에러가 자주 발생하는데 서버측에서 CORS 에러에 대한 처리를 위와 같이 해주었다고 해도 localhost로 개발 및 테스트 과정에서 계속 문제가 발생할 수 있음.   
+             
+            
 따라서 아래와 같은 설정이 필요 (front-end 개발 시 Angular를 사용함)
+
 1. proxy.conf.json 파일 생성 (프로젝트 최상위 디렉토리 아래)
 ```json
 {
