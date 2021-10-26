@@ -76,7 +76,7 @@ components:
 ```js
 /**
  * @swagger
- * /api/books:
+ * /api/books/{id}:
  *    put:
  *      tags:
  *      - Book
