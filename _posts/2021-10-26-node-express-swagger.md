@@ -71,7 +71,8 @@ components:
           example: 예시
 ```
 #### api 작성
-- /api/books 로 put 메소드를 통해 들어오는 요청에 대한 예시
+- /api/books 로 put 메소드를 통해 들어오는 요청에 대한 예시   
+
 ```js
 /**
  * @swagger
